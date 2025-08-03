@@ -1,0 +1,24 @@
+{
+  "name": "realtime-server",
+  "version": "1.0.0",
+  "description": "Real-time server with Socket.IO for booking status notifications",
+  "main": "socketServer.js",
+  "scripts": {
+    "start": "node socketServer.js",
+    "dev": "node socketServer.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "socket.io": "^4.7.2",
+    "socket.io-client": "^4.8.1"
+  },
+  "keywords": [
+    "socket.io",
+    "express",
+    "realtime",
+    "notifications"
+  ],
+  "author": "",
+  "license": "ISC"
+}
